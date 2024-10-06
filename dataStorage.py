@@ -2,7 +2,6 @@ import requests
 from datetime import datetime, timedelta
 import os
 import zipfile
-import pandas as pd
 
 # Obter a data de D-1 (ontem)
 d1 = datetime.now() - timedelta(days=1)
@@ -12,7 +11,7 @@ d1_str = d1.strftime('%Y-%m-%d')  # Formato: 2024-10-04
 download_url = f'https://arquivos.b3.com.br/rapinegocios/tickercsv/{d1_str}'
 
 # Definir o diretório onde o arquivo será salvo
-diretorio_destino = 'C:/Users/augus/OneDrive/FIAP/Fase_2/tech_challenge_2/data'  # Substitua pelo caminho da pasta onde deseja salvar o arquivo
+diretorio_destino = 'Your_path_file'  # Substitua pelo caminho da pasta onde deseja salvar o arquivo
 
 # Verificar se o diretório existe, se não, criar
 if not os.path.exists(diretorio_destino):
