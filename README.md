@@ -12,11 +12,11 @@ This script automates the process of downloading and processing transaction data
 **Requirements**
 
 The following Python libraries are required to run the script:
+- bs4
 - requests
 - datetime (part of the Python standard library)
 - os (part of the Python standard library)
 - zipfile (part of the Python standard library)
-- pandas
 - pyarrow (for saving as Parquet)
 
 You can install the required libraries using pip:
