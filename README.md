@@ -56,9 +56,13 @@ The script will download the latest D-1 data, extract it, and save it as a Parqu
 Example Output
 
 Arquivo ZIP baixado com sucesso: [your_directory]/cotacoes_b3_d1_2024-10-04.zip
+
 Arquivo descompactado com sucesso no diretório: [your_directory]
+
 Arquivo ZIP apagado: [your_directory]/cotacoes_b3_d1_2024-10-04.zip
+
 Arquivo TXT extraído: 04-10-2024_NEGOCIOSAVISTA.txt
+
 Arquivo Parquet salvo com sucesso: [your_directory]/NEGOCIOSAVISTA_2024-10-04.parquet
 
 **License**
